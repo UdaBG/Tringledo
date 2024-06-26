@@ -1,11 +1,20 @@
 import React from 'react';
+import Navbar from '../Components/Navbar';
+import Hero from '../Components/Hero';
+import Analytics from '../Components/Analytics';
+import Newsletter from '../Components/Newsletter';
 
 function Home(props) {
     return (
        
-      <div>
-        this is home page
-      </div>
+      <>
+        <Navbar/>
+        <Hero/>
+        <Analytics/>
+        <Newsletter/>
+
+        </>
+    
     );
 }
 
