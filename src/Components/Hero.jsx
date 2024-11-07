@@ -26,10 +26,24 @@ const [ishovered, setishovered] = useState(false)
                     </h1>
                     <div>
                     <button
-                               onMouseEnter={() => setishovered(true)}
-                               onMouseLeave={() => setishovered(false)}
-                    
-                    style={{ width: 200, height: 50, borderRadius: 10, backgroundColor: '#00df9a', fontFamily: 'Open Sans, sans-serif', fontSize: '16px', fontWeight: 'bold', color: 'black',  boxShadow: ishovered? '0px 4px 8px #39FF14' : "" }}>Get Started</button>
+        onMouseEnter={() => setishovered(true)}
+        onMouseLeave={() => setishovered(false)}
+        style={{
+            cursor: 'pointer',
+            width: 200,
+            height: 50,
+            borderRadius: 10,
+            backgroundColor: '#00df9a',
+            fontFamily: 'Open Sans, sans-serif',
+            fontSize: '16px',
+            fontWeight: 'bold',
+            color: 'black',
+            border: 0,
+            boxShadow: ishovered ? '0px 0px 15px 2px white' : ""
+        }}
+    >
+        Get Started
+    </button>
 
                     </div>
                 </div>

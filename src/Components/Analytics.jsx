@@ -22,7 +22,7 @@ function Analytics() {
                         onMouseEnter={() => setishovered(true)}
                         onMouseLeave={() => setishovered(false)}
                         
-                        style={{fontSize:20, marginTop:30, backgroundColor: ishovered? '#00df9a': 'black', color: ishovered? 'white':'#00df9a', height:50, width:200, borderRadius:10}}>Get Started</button>
+                        style={{cursor: 'pointer', fontSize:20, marginTop:30, backgroundColor: ishovered? '#00df9a': 'black', color: ishovered? 'white':'#00df9a', height:50, width:200, borderRadius:10}}>Get Started</button>
                     </div>
 
 
